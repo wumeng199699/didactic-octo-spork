@@ -1,0 +1,118 @@
+.person-img{
+	background-image: url(../img/涓汉涓績.jpg);
+	background-size: cover;
+	height: 100%;
+}
+.person{
+	font-family: "浠垮畫";
+	font-size: 20px;
+	text-align: left;
+	color: #E4B9C0;
+	list-style: none;
+	padding: 0px;
+	margin: 0.2em 0.2em 0.2em;
+}
+.person_b{
+	padding:0.5em;
+}
+.navcol li b{
+	font-family: "浠垮畫";
+	font-size:25px;
+	text-align: left;
+	color: #E4B9C0;
+	list-style: none;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+.shujia{
+	height: 90%;
+	width: 60%;
+	text-align: center;
+	background-color: lightcyan;
+	margin: 0 auto;
+	padding-top: 150px;
+	padding-bottom: 200px;
+}
+.ziliao{
+	height: 100%;
+	width: 60%;
+	text-align: center;
+	background-color: lightcyan;
+	margin: 0 auto;
+	padding-top: 150px;
+	padding-bottom: 400px;
+}
+.head{
+	height: 30%;
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+.leftb{
+	height: 100px;
+	width: 25%;
+	margin: 8px auto;
+	float: left;
+	padding-left: 50px;
+}
+.rightb{
+	height: 100px;
+	width: 75%;
+}
+.nicheng{
+	font-family: "寰蒋闆呴粦";
+	font-size: 20px;
+	color: #333333;
+	font-weight: 800;
+	text-align: left;
+	float: left;
+}
+.dengji{
+	font-family: "鏂板畫浣�";
+	font-size: 14px;
+	color: sandybrown;
+	text-align: left;
+	padding-top: 8px;
+}
+.qianming{
+	font-family: "妤蜂綋";
+	font-size: 20px;
+	color: #122B40;
+	text-align: left;
+}
+.piao{
+	font-family: "arial, helvetica, sans-serif";
+	font-size: 20px;
+	color: red;
+	text-align: left;
+}
+.xiugai{
+	height: 70%;
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.xiaobiao{
+	font-family: "榛戜綋";
+	font-size: 18px;
+	color: lightslategray;
+	float: left;
+	padding-left: 80px;
+	font-weight: 200;
+}
+.form-group{
+	float: left;
+	width: 100%;
+}
+.form-control{
+	text-align: left;
+	float: left;
+}
+.xingbie{
+	width: 100%;
+	height: 30px;
+}
+

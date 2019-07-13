@@ -1,0 +1,51 @@
+.dixian{
+	height: 150px;
+	width: 100%;
+	background-color: seagreen;
+	
+}
+.guanyuwomen{
+	height: 100%;
+	width: 25%;
+	float: left;
+	padding-top: 20px;
+	padding-left: 25px;
+}
+.guanyuwomen p{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: whitesmoke;
+	border-left: 25px;
+}
+.hezuo{
+	height: 100%;
+	width: 25%;
+	float: left;
+	padding-top: 20px;
+	float: left;
+}
+.hezuo p{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: whitesmoke;
+	font-weight: 100;
+}
+.erweima{
+	height:98%;
+	width: 10%;
+	padding-top: 20px;
+	float: left;
+}
+.huanying{
+	height: 100%;
+	width: 35%;
+	float: left;
+}
+.huanying p{
+	font-family: "楷体";
+	font-size: 40px;
+	font-style: initial;
+	color: #BCE8F1;
+	padding-left: 50px;
+	padding-top: 40px;
+}

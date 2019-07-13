@@ -1,0 +1,276 @@
+/*杞挱鍥惧疄鐜�*/
+.warp{
+    width: 100%;
+    padding: 0em;
+    display: -moz-box;
+    display: -webkit-box;
+}
+.nav,.mod-tab{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.mod-tab{
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    position: relative;
+    padding:2em;
+}
+.gb-tab-pn{
+    overflow: hidden;
+    height: 383px;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+.tab-con{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pic{
+    height: 100%;
+    width: 100%;
+}
+.pic a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.gb-tab{
+    overflow: hidden;
+    position: absolute;
+    z-index: 60;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    margin:1.3em 0em;
+}
+.gb-tab .item{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin: 6px;
+    color: #6ff;
+    background-color: #003c49;
+    line-height: 16px;
+}
+.item2{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin: 6px;
+    color: #6ff;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 16px;
+}
+ 
+.gb-tab a:hover{
+    background-color: #ffffff;
+}
+.on{
+    background-color: #ffffff;
+}
+.arrow{
+    position: absolute;
+    top: 171px;
+    z-index: 99;
+    display: none;
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 39px;
+    text-align: center;
+    color: #fff;
+    background-color: RGBA(0, 0, 0, .3);
+    cursor: pointer;
+}
+.arrow:hover {
+    background-color: RGBA(0, 0, 0, .7);
+}
+.warp:hover .arrow {
+    display: block;
+}
+#prev {
+    left: 15%;
+}
+#next {
+    right: 15%;
+}
+.background-img{
+	background-image: url(../img/背景.jpg);
+	background-size: cover;
+}
+/*鎺ㄨ崘銆佸叕鍛婃爮*/
+#container{
+	width: 100%;
+    padding: 0px;
+    display: -moz-box;
+    display: -webkit-box;
+}
+#container h1{
+	font-style: italic;
+}
+.xuxie-tuijian,.yuedu-tuijian,.gonggao{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 300px;
+	padding: 0 3em;
+}
+#container ul li a{
+	font-family: "妤蜂綋";
+	font-size: 15px;
+	color: darkgreen;
+}
+.xuxie-tuijian{
+	width: 40%;
+	
+}
+.yuedu-tuijian{
+	width: 40%;
+}
+.gonggao{
+	-moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    text-align: center;
+}
+#container a{
+	font-family: "浠垮畫";
+	font-size: 18px;
+	color: plum;
+	font-weight: 900;
+}
+/*鎺掕姒�*/
+.ranking{
+	width: 100%;
+	display: -moz-box;
+    display: -webkit-box;
+}
+.rank{
+	width: 20%;
+	height: 100%;
+	background-color: lightcyan;
+	padding: 0 3em;
+}
+.biaoti-bang{
+	font-family: "浠垮畫";
+	font-size: 30px;
+	color: rosybrown;
+	font-weight: 700;
+	border-bottom: 1px solid #006400;
+}
+.book-list{
+	width: 90%;
+}
+.no1{
+	width: 100%;
+	display: -moz-box;
+    display: -webkit-box;
+}
+.no1-text{
+	width: 70%;
+	height: 100%;
+	margin: 2px 2px 2px;
+}
+.no1-text h3{
+	font-family:Arial;
+	text-align: center;
+    color: #fff;
+    background-color: #C9302C;
+    font-size: 25px;
+	padding:0.1em 0.1em;
+	border-radius:0.3em;
+	width:40%;
+}
+.no1-text a{
+	font-family: "妤蜂綋";
+	font-size: 22px;
+	color: #122B40;
+}
+.no1-text p{
+	font-family: "寰蒋闆呴粦";
+	font-size: 18px;
+	color: #C9302C;
+	font-style: italic;
+}
+.no1-text ul a{
+	font-family: "妤蜂綋";
+	font-size: 16px;
+	color: gray;
+}
+.no1-cover{
+	width: 30%;
+	height: 100%;
+	text-align: center;
+}
+.no1-text,.no1-cover{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.no2{
+	width: 100%;
+	height: 9%;
+    display: -moz-box;
+    display: -webkit-box;
+}
+.no2 h3{
+	font-family:Arial;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+    color: #fff;
+    background-color: #EEA236;
+    font-size: 18px;
+    margin: 2px 2px 2px;
+}
+.num-book{
+	font-family: "瀹嬩綋";
+	font-size: 18px;
+	color: #122B40;
+	text-align: right;
+}
+.no3{
+	width: 100%;
+	height: 9%;
+    display: -moz-box;
+    display: -webkit-box;
+}
+.no3 h3{
+	font-family:Arial;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+    color: #fff;
+    background-color: #F7E1B5;
+    font-size: 18px;
+    margin: 2px 2px 2px;
+}
+.no{
+	width: 100%;
+	height: 9%;
+    display: -moz-box;
+    display: -webkit-box;
+}
+.no h3{
+	font-family:Arial;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+    color: #AC2925;
+    font-size: 18px;
+    margin: 2px 2px 2px;
+}
+

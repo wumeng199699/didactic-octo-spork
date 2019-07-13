@@ -1,0 +1,106 @@
+.row {
+	display: -moz-box;
+	display: -webkit-box;
+	-moz-box-orient: horizontal;
+	-webkit-box-orient: horizontal;
+}
+
+.col-md-4 {
+	padding: 0.2em 0em;
+	background-color: #8FBC8F;
+}
+
+.col-md-4 h2 {
+	padding: 0em 0.5em;
+	color: darkslategray;
+	font-style: italic;
+}
+
+.col-md-5 {
+	background-color: #8FBC8F;
+}
+
+.sousuolan {
+	padding: 2em 0em;
+	background-color: #8FBC8F;
+}
+
+.sousuo {
+	border: 1px solid darkslategray;
+	border-radius: 4px;
+	font-size: 18px;
+	width: 50%;
+	height: 32px;
+}
+
+.button {
+	background-color: white;
+	border: 1px solid darkslategray;
+	border-radius: 4px;
+	color: darkslategray;
+	font-size: 18px;
+	width: 60px;
+	height: 32px;
+}
+
+.button:hover {
+	background-color: darkslategray;
+	color: white;
+}
+
+.col-md-3 {
+	background-color: #8FBC8F;
+}
+
+.col-md-3 ul {
+	padding: 2em;
+}
+
+.col-md-3 ul li {
+	list-style: none;
+	padding: 0em 1em;
+	float: right;
+}
+
+.col-md-3 ul li a {
+	font-size: 15px;
+	color: darkslategray;
+}
+
+.col-md-3 ul li a:hover {
+	color: white;
+	text-decoration: none;
+}
+.a_dropbtn{
+	font-size: 15px;
+	color: darkslategray;
+	border: none;
+	background-color: #8FBC8F;
+}
+.dropbtn{
+	position: relative;
+	display: inline-block;
+}
+.dropbtn-con{
+	font-size: 10px;
+	display: none;
+	position: absolute;
+	background: ghostwhite;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropbtn-con a{
+	padding: 0.5em 1em;
+	color: darkslategrey;
+	text-decoration: none;
+	display: block;
+}
+.dropbtn-con a:hover{
+	padding: 0.5em 1em;
+	background-color: darkolivegreen;
+	color: ghostwhite;	
+}
+.dropbtn:hover .dropbtn-con{
+	display: block;
+}
+

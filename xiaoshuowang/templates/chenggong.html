@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+
+	<head>
+		<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+		<link rel="stylesheet" href="{% static 'css/styles.css' %}"/>
+        <link rel="stylesheet" href="{% static 'css/zhuanqu.css' %}"/>
+		<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"/>
+		<meta charset="UTF-8">
+		<title>提交成功</title>
+	</head>
+
+	<body>
+		<div class="row">
+			<div class="col-md-4">
+				<h2>&nbsp&nbsp飞阅续书小说网</h2>
+			</div>
+			<div class="col-md-5">
+				<div class="sousuolan">
+					<form action="shouye.html" method="post" name="biaodan" autocomplete="on">
+						<input type="radio" name="zhonglei" checked="checked">书名
+						<input type="radio" name="zhonglei">作者&nbsp
+						<input class="sousuo" type="search" name="sousuo" placeholder="请输入要搜索的内容" style="width: 70%;" />
+						<button class="button" type="submit" value="搜索">搜索</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<ul>
+					<li>
+						<a href="about.html">关于</a>
+					</li>
+					<li>
+						<a>欢迎，阿凡达</a>
+					</li>
+					<li>
+						<a href="shoucang.html">收藏夹</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="photoim">
+			<img src="{% static 'img/表情.jpg' %}" style="height: 100%;width: 100%;" />
+		</div>
+		<p class="upsucces">{{ data }}</p>
+		<div class="fanhui">
+		    <a href="http://localhost:8080/%E5%B0%8F%E8%AF%B4%E7%BD%91/shouye.jsp"style="float: left;">返回首页</a>
+		    <a href="http://localhost:8080/%E5%B0%8F%E8%AF%B4%E7%BD%91/person.jsp"style="float: right;">查看书架</a>
+		</div>
+	</body>
+</html>

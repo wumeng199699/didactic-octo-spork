@@ -1,0 +1,88 @@
+.result{
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+	border: dotted;
+	border-color: forestgreen;
+}
+.hang{
+	height: 170px;
+	width: 100%;
+	border-bottom: 1px solid #006400;
+}
+.everybook1{
+	height: 100%;
+	width: 50%;
+	text-align: left;
+	float: left;
+}
+.everybook2{
+	height: 100%;
+	width: 50%;
+	text-align: right;
+	float: right;
+}
+.lefta{
+	height: 100%;
+	width: 20%;
+	padding-top: 10px;
+	float: left;
+}
+.righta{
+	height: 100%;
+	width: 65%;
+	padding-top: 10px;
+	text-align: right;
+}
+.righta p{
+	font-family: "楷体";
+	font-size: 10px;
+	color: rosybrown;
+	text-align: left;
+}
+.righta a{
+	font-family: "楷体";
+	font-size: 18px;
+	color: brown;
+	text-align: left;
+}
+.photoim{
+	height: 400px;
+	width: 30%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 1em;
+}
+.upsucces{
+	font-family: "新宋体";
+	font-size: 50px;
+	color: mediumspringgreen;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.fanhui{
+	height: 100px;
+	width: 30%;
+	text-align: center;
+	margin: 0 auto;
+}
+.fanhui a{
+	padding: 0.3em 0.8em;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: white;
+	background-color: #003c49;
+	border-radius: 0.5em;
+}
+.fanhui a:hover{
+	text-decoration: none;
+	background-color: #2F4F4F;
+	color: white;
+}
+.upfault{
+	font-family: "新宋体";
+	font-size: 50px;
+	color: sandybrown;
+	text-align: center;
+	padding-bottom: 50px;
+}

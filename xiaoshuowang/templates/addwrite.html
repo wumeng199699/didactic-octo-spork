@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+
+	<head>
+        <link rel="icon" href="data:image/ico;base64,aWNv">
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}"/>
+        <link rel="stylesheet" href="{% static 'css/addwrite.css' %}"/>
+		<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"/>
+		<meta charset="UTF-8">
+		<title>十宗罪6续写页面</title>
+        <style type="text/css">
+        /* cytoscape graph */
+        #cy {
+            height: 500px;
+            width: 800px;
+            background-color: #f9f9f9;
+            text-align:left;
+            border-radius: 0.5em;
+        }
+    </style>
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/cytoscape/2.3.16/cytoscape.min.js"></script>
+    <script>
+        $(function(){
+            cytoscape({
+              container: document.getElementById('cy'),
+              style: [
+                { selector: 'node[label = "Person"]',
+                  css: {'background-color': '#6FB1FC', 'content': 'data(name)'}
+                },
+                { selector: 'edge',
+                  css: {'content': 'data(relationship)','target-arrow-shape': 'triangle'}
+                }
+              ],
+              elements: {
+                nodes: [
+                    {data: {id: '1', name: '警察', label: 'Person'}},
+                    {data: {id: '2', name: '女孩', label: 'Person'}},
+                    {data: {id: '3', name: '周公子', label: 'Person'}},
+                    {data: {id: '4', name: '苏眉', label: 'Person'}},
+                    {data: {id: '5', name: '画龙', label: 'Person'}},
+                    {data: {id: '6', name: '小若黎', label: 'Person'}},
+                    {data: {id: '7', name: '包斩', label: 'Person'}},
+                    {data: {id: '8', name: '孙大越', label: 'Person'}},
+                    {data: {id: '9', name: '社会姐', label: 'Person'}},
+                    {data: {id: '10', name: '常玉', label: 'Person'}},
+                    {data: {id: '11', name: '宋蔷薇', label: 'Person'}},
+                    {data: {id: '12', name: '薛亦涵', label: 'Person'}},
+                    {data: {id: '13', name: '大头', label: 'Person'}},
+                    {data: {id: '14', name: '三五瓶', label: 'Person'}},
+                    {data: {id: '15', name: '小偷', label: 'Person'}},
+                    {data: {id: '16', name: '皮裤哥', label: 'Person'}},
+                    {data: {id: '17', name: '八又雯', label: 'Person'}},
+                    {data: {id: '18', name: '释延心', label: 'Person'}},
+                    {data: {id: '19', name: '小偷披风', label: 'Person'}},
+                    {data: {id: '20', name: '胖虎', label: 'Person'}},
+                    {data: {id: '21', name: '水燕子', label: 'Person'}},
+                    {data: {id: '22', name: '钢蛋', label: 'Person'}},
+                    {data: {id: '23', name: '高工', label: 'Person'}},
+                    {data: {id: '24', name: '老杨', label: 'Person'}},
+                    {data: {id: '25', name: '郝局长', label: 'Person'}},
+                ],
+                edges: [
+                    {data: {source: '1', target: '8'}},
+                    {data: {source: '1', target: '7'}},
+                    {data: {source: '1', target: '2'}},
+                    {data: {source: '1', target: '5'}},
+                    {data: {source: '1', target: '19'}},
+                    {data: {source: '1', target: '20'}},
+                    {data: {source: '1', target: '3'}},
+                    {data: {source: '1', target: '4'}},
+                    {data: {source: '1', target: '16'}},
+                    {data: {source: '1', target: '12'}},
+                    {data: {source: '1', target: '25'}},
+                    {data: {source: '2', target: '9'}},
+                    {data: {source: '2', target: '25'}},
+                    {data: {source: '2', target: '7'}},
+                    {data: {source: '2', target: '8'}},
+                    {data: {source: '2', target: '11'}},
+                    {data: {source: '2', target: '10'}},
+                    {data: {source: '2', target: '17'}},
+                    {data: {source: '2', target: '3'}},
+                    {data: {source: '2', target: '16'}},
+                    {data: {source: '2', target: '4'}},
+                    {data: {source: '2', target: '12'}},
+                    {data: {source: '3', target: '13'}},
+                    {data: {source: '3', target: '6'}},
+                    {data: {source: '3', target: '16'}},
+                    {data: {source: '3', target: '20'}},
+                    {data: {source: '3', target: '5'}},
+                    {data: {source: '4', target: '5'}},
+                    {data: {source: '4', target: '7'}},
+                    {data: {source: '4', target: '6'}},
+                    {data: {source: '4', target: '12'}},
+                    {data: {source: '4', target: '17'}},
+                    {data: {source: '5', target: '15'}},
+                    {data: {source: '5', target: '20'}},
+                    {data: {source: '5', target: '18'}},
+                    {data: {source: '5', target: '6'}},
+                    {data: {source: '6', target: '20'}},
+                    {data: {source: '6', target: '7'}},
+                    {data: {source: '6', target: '8'}},
+                    {data: {source: '6', target: '24'}},
+                    {data: {source: '7', target: '25'}},
+                    {data: {source: '7', target: '24'}},
+                    {data: {source: '7', target: '8'}},
+                    {data: {source: '7', target: '9'}},
+                    {data: {source: '8', target: '24'}},
+                    {data: {source: '8', target: '25'}},
+                    {data: {source: '9', target: '11'}},
+                    {data: {source: '9', target: '25'}},
+                    {data: {source: '12', target: '17'}},
+                    {data: {source: '12', target: '13'}},
+                    {data: {source: '12', target: '14'}},
+                    {data: {source: '12', target: '16'}},
+                    {data: {source: '13', target: '14'}},
+                    {data: {source: '13', target: '16'}},
+                    {data: {source: '14', target: '16'}},
+                    {data: {source: '15', target: '19'}},
+                    {data: {source: '15', target: '18'}},
+                    {data: {source: '16', target: '17'}},
+                    {data: {source: '18', target: '21'}},
+                    {data: {source: '18', target: '19'}},
+                    {data: {source: '19', target: '23'}},
+                    {data: {source: '19', target: '20'}},
+                    {data: {source: '19', target: '21'}},
+                    {data: {source: '19', target: '22'}},
+                    {data: {source: '20', target: '23'}},
+                    {data: {source: '21', target: '22'}},
+                    {data: {source: '21', target: '23'}},
+                    {data: {source: '22', target: '23'}},
+                ]
+              },
+              layout: { name: 'grid'}
+            });
+        });
+    </script>
+		<script language="JavaScript">
+			function sumb(){
+				var text=document.getElementById("add-text").value;
+				if(text==""||text==null){
+					alert("请输入评论内容！");
+					return false;
+				}
+				else{
+				alert("提交成功！");
+				return true;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div class="row">
+			<div class="col-md-4">
+				<h2>&nbsp&nbsp飞阅续书小说网</h2>
+			</div>
+			<div class="col-md-5">
+				<div class="sousuolan">
+					<form id="form1" action="do_sousuo.jsp" method="post" name="sousuobiaodan" autocomplete="on">
+						<input type="radio" name="zhonglei" checked="checked">书名
+						<input type="radio" name="zhonglei">作者
+						<input class="sousuo" type="search" name="sousuo" placeholder="请输入要搜索的内容" style="width: 70%;" />
+						<button class="button" type="submit" value="search">搜索</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<ul>
+					<li>
+						<a href="about.jsp">关于</a>
+					</li>
+					<li>
+						<a>欢迎，阿凡达</a>
+					</li>
+					<li>
+						<a href=".html">收藏夹</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="write">
+			<div class="wri-add">
+				<div class="per-view">
+					<div class="wri-tit">
+						<h2>人物关系图谱</h2>
+					</div>
+					<div align="center">
+					       <div id = "cy"> </div>
+					</div>
+				</div>
+                <div class="clearfix"></div>
+				<div class="wri-text">
+					<form action="/write_action/" method="post" autocomplete="on" name="write-sumbit">
+                        <ul>
+                            <li class="biaoti">小标题：<input type="text" name="biaoti" style="width: 40%;padding: 0.3em 0.3em;"></li>
+                            <li class="neirong"><p>内&nbsp&nbsp&nbsp&nbsp容：</p><textarea class="add-text" id="add-text" name="text"></textarea></li>
+                        </ul>
+					    <button type="submit" onclick="sumb()" class="add-sumb">确认提交</button>
+                            {% csrf_token %}
+					</form>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,47 @@
+.write{
+	padding: 0 8em;
+	background:url(../img/45.jpg) no-repeat;
+	background-size:cover ;
+}
+.wri-add{
+	padding: 1em 0;
+}
+.wri-tit h2{
+	color: #3C763D;
+	font-size: 40px;
+	padding: 1em;
+}
+.wri-view{
+	padding: 3em;
+	text-align: center;
+}
+.wri-text{
+	text-align: center;
+	padding: 3em;
+	color: #122b40;
+	font-size: 20px;
+	font-weight: 600;
+}
+.wri-text ul{
+	overflow: hidden;
+}
+.wri-text ul li{
+	padding: 0.5em;
+	text-align: left;
+	list-style: none;
+}
+.add-text{
+	height: 25em;
+	width: 100%;
+	resize: none;
+	outline: none;
+}
+.add-sumb{
+	background-color: #761c19;
+	color: white;
+	font-size: 15px;
+	font-weight: 300;
+	padding: 0.3em 0.8em;
+	border-radius: 0.3em;
+	border: 1px solid #761c19;
+}
